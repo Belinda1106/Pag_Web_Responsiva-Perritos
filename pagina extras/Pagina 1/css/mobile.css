@@ -1,0 +1,66 @@
+/* Utility Classes */
+.large { font-size: 20px; }
+
+.display-1 { font-size: 3rem; }
+
+/* Navbar */
+#navbar {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#navbar .logo {
+  float: none;
+  text-align: center;
+}
+
+#navbar ul {
+  padding-right: 20px;
+}
+
+/* Showcase */
+#showcase {
+  padding: 50px 0 70px 0;
+  
+}
+
+/* Events */
+#events {
+  padding: 50px 0;
+}
+
+#events h2 {
+  padding-bottom: 30px;
+}
+
+#events .events-box {
+  flex-wrap: wrap;
+}
+
+#events .ebox {
+  margin: 5px;
+  padding: 30px 10px;
+}
+
+/* About */
+#about {
+  padding: 50px 0;
+}
+
+/* Speakers */
+#speakers {
+  padding: 50px 0;
+}
+
+#speakers h2 {
+  padding-bottom: 20px;
+}
+
+#speakers .speakers-box {
+  flex-wrap: wrap;
+}
+
+/* Tickets */
+#tickets {
+  padding: 50px 0;
+}

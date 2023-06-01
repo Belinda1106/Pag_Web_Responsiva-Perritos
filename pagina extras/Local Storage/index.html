@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Local Storage</title>
+    <link type="text/css" rel="stylesheet" href="style.css"
+</head>
+
+<body>
+    <ul class="navegacion--lista">
+        <li><a href="../../index.html">Inicio</a></li>
+        <li><a href="../Pagina 1/index.html">Página 1</a></li>
+        <li><a href="../Pagina 2/index.html">Página 2</a></li>
+        <li><a href="../Pagina 3/index.html">Página 3</a></li>
+        <li><a href="../Pagina 4/index.html">Página 4</a></li>
+        <li><a href="index.html">Local Storage</a></li>
+        <li><a href="../Curriculum.pdf">Curriculum</a></li>
+        <li><a href="../Página web Estática/Index.html">Página estática</a></li>
+    </ul>
+    <table>
+        <tr>
+            <td>
+                <form autocomplete="off" onsubmit="onFormSubmit()">
+                    <div>
+                        <label for="productCode">Código del producto</label>
+                        <input type="text" name="productCode" id="productCode">
+                    </div>
+                    <div>
+                        <label for="product">Nombre del producto</label>
+                        <input type="text" name="product" id="product">
+                    </div>
+                    <div>
+                        <label for="description">Descripción</label>
+                        <input type="text" name="Description" id="Description">
+                    </div>
+                    <div>
+                        <label for="qty">Cantidad</label>
+                        <input type="number" name="qty" id="qty">
+                    </div>
+                    <div>
+                        <label for="perPrice">Precio</label>
+                        <input type="number" name="perPrice" id="perPrice">
+                    </div>
+                    <div>
+                        <label for="nameshop">Nombre de la tienda</label>
+                        <input type="text" name="nameshop" id="nameshop">
+                    </div>
+                    <div>
+                        <label for="caduciddate">Fecha de caducidad</label>
+                        <input type="text" name="caduciddate" id="caduciddate">
+                    </div>
+
+                    <div class="form_action--button">
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                    </div>
+                </form>
+
+                <td>
+                    <table class="list" id="storeList">
+                        <thead>
+                            <tr>
+                                <th>Código producto</th>
+                                <th>Nombre del producto</th>
+                                <th>Descripción</th>
+                                <th>Cantidad</th>
+                                <th>Precio</th>
+                                <th>Nombre de la tienda</th>
+                                <th>Fecha de caducidad</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </td>
+            </td>
+        </tr>
+    </table>
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+</html>

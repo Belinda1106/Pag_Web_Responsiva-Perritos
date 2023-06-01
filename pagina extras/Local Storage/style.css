@@ -1,0 +1,151 @@
+/* Navegacion */
+.navegacion{
+    background-color: white;
+    width: 100%;
+    position: absolute;
+    padding-bottom: 10px;
+    top: 40px;
+    transform: translateY(-150%);
+    transition: transform .8s ease;
+}
+@media (min-width:992px) {
+    .navegacion{
+        width: auto;
+        position: static;
+    }
+}
+/* Clase dinamica - js */
+.navegacion--dinamico{
+    transform: translateY(0%);
+}
+a{
+    color: white;
+}
+.navegacion--lista{
+    margin-top: 20px;
+    width: 100%;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 40px;
+}
+@media (min-width:992px) {
+    .navegacion--lista{
+        font-size: 15px;
+        color: white;
+        margin-top: 0;
+        flex-direction: row;
+        row-gap: 40px;
+        column-gap: 50px;
+    }
+}
+.navegacion--lista li{
+    width: 100%;
+    text-align: center;
+}
+.navegacion--lista li a{
+    display: block;
+    padding: 10px;
+}
+.navegacion--lista li a:hover{
+    background-color: #292B38;
+    color: white;
+}
+.navegacion--lista li:last-child .formulario{
+    background-color: #E7E7E7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 5px;
+}
+.navegacion--lista .formulario label img{
+    width: 30px;
+    height: 25px;
+}
+.navegacion--lista .formulario input{
+    background-color: transparent;
+    padding-inline: 10px;
+    height: 25px;
+    width: 100%;
+}
+@media (min-width:992px) {
+    .navegacion--lista .formulario input{
+        width: auto;
+    }
+}
+
+body{
+    background-image: url('background-field.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+table{
+    width: 80%;
+    margin: 40px auto;
+    background: rgb(235, 185, 32);
+}
+
+table.list{
+    text-align: center;
+    width: 100%;
+}
+
+td{
+    border: 3px solid white;
+    text-align: left;
+    padding: 8px 15px;
+}
+
+tr:nth-child(even), table.list thread> tr{
+    background-color: white;
+}
+
+input[type="text"],input[type="number"]{
+    width:91%;
+    padding:12px 20px;
+    margin:8px 0;
+    display: inline-block;
+    border: 1px solid rgb(165,161,161);
+    border-radius: 4px;
+}
+
+input[type="submit"],input[type="reset"]{
+    background: #eee;
+    padding:6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"]:hover{
+    background: #4b99d8;
+}
+
+input[type="reset"]:hover{
+    background: #4b99d8;
+}
+
+button{
+    background: #eee;
+    padding:6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover{
+    background:#4b99d8 ;
+}
+

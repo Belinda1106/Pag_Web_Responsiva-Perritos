@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main Styling */
+html,
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 { font-size: 2.5rem; }
+h2 { font-size: 2rem; }
+h4 { font-size: 1.5rem; }
+
+p {
+  font-size: 1rem;
+  margin: 10px 0;
+  line-height: 1.7em;
+}
+
+a { text-decoration: none; }
+
+/* Utility Classes */
+.container {
+  margin: auto;
+  max-width: 1300px;
+  overflow: auto;
+  padding: 0 20px;
+}
+
+.large { font-size: 30px; }
+
+.display-1 { font-size: 4rem; }
+
+.btn {
+  display: inline-block;
+  font-size: 15px;
+  padding: 12px 23px;
+  cursor: pointer;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-radius: 4px;
+}
+
+.btn-red {
+  background: #e0333c;
+  border: none;
+  color: #fff;
+}
+
+.btn-outline {
+  border: 1px solid #e0333c;
+  color: #e0333c;
+}
+
+.btn-white {
+  background: #fff;
+  color: #e0333c;
+}
+
+.txt-red {
+  color: #e0333c;
+}
+
+/* Mainheader */
+#mainheader {
+  background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url('../img/showcase.jpg');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+/* Navbar */
+#navbar {
+  color: #fff;
+  overflow: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#navbar a {
+  color: #fff;
+}
+
+#navbar .logo {
+  float: left;
+  padding-top: 16px;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+#navbar ul {
+  list-style: none;
+  float: right;
+}
+
+#navbar ul li {
+  float: left;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Showcase */
+#showcase {
+  text-align: center;
+  padding: 200px 0;
+  color: #fff;
+}
+
+/* Events */
+#events {
+  padding: 80px 0;
+}
+
+#events h2 {
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+#events .events-box {
+  display: flex;
+}
+
+#events .ebox {
+  border: #e0333c 1px solid;
+  margin: 5px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+#events .ebox p {
+  padding: 10px 0;
+}
+
+/* About */
+#about {
+  background: #e0333c;
+  color: #fff;
+  padding: 80px 0;
+}
+
+#about h2 {
+  padding-bottom: 20px;
+}
+
+/* Speakers */
+#speakers {
+  padding: 80px 0;
+}
+
+#speakers h2 {
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+#speakers .speakers-box {
+  display: flex;
+}
+
+#speakers .speakers-box img {
+  width: 100%;
+}
+
+#speakers .sbox {
+  margin: 10px;
+  text-align: center;
+}
+
+#speakers h4 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+/* Tickets */
+#tickets {
+  padding: 80px 0;
+  background: #e0333c;
+  color: #fff;
+  text-align: center;
+}
+
+#tickets p {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+/* Footer */
+#mainfooter {
+  background: #b32830;
+  text-align: center;
+  color: #fff;
+  padding:30px;
+}
+
+.img__dimension{
+  width: 100px;
+  height: 100px;
+}

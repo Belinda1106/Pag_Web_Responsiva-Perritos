@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Formulario</title>
+	<style type="text/css">
+		
+		h1 {
+			font-size: 50px;
+			font-family: arial;
+			color:white;
+		}
+		p {
+			font-size: 25px;
+			color:black;
+		}
+		div{
+	width:500px; 
+	background:#b3edfc; 
+	margin:20px 40px; 
+	padding:15px;
+	border:4px solid white;
+	display: inline-block;   
+	border-radius: 10px;
+
+}
+	</style>
+</head>
+
+<body background="../Imagenes/imagen_fromulario.jpg"  width="100" height="100">
+<h1><center>Formulario</center></h1>
+<form>
+		<center><div class="caja">
+	<p>Nombre: <input type="text" placeholder="Escribe tu nombre" required ></p>
+	<p>Sexo: Hombre <input type="radio" name="sexo" value="h" required > Mujer <input type="radio" name="sexo" value="m" required ></p>
+	<p>Fecha: <input type="date" name="fecha"></p>
+	<p>Hora: <input type="time" name="hora"></p>
+    <p>Color favorito: <input type="color" name="color"></p>
+    <p>Sitio Web: <input type="url" name="web"></p>
+    <p>Fecha: <input type="email" name="correo"></p>
+    <p>Calificación (0-10): <input type="range" name="calif" min="0" max="10" step="1"></p>
+    <p>Archivo: <input type="file" name="archivo"></p>
+
+    <p>Pais de nacimiento: <select name="menu" size="1">
+    	<option value="0">Elija una país</option>
+    	<optgroup label="América">
+    		<option value="1">México</option>
+    		<option value="2">Colombia</option>
+    		<option value="3">Perú</option>
+    	</optgroup>
+    	<optgroup label="Europa">
+    		<option value="4">España</option>
+    		<option value="5">Francia</option>
+    		<option value="6">Italia</option>
+    	</optgroup>
+    </select></p>
+
+	<p><input type="reset" value="Borrar"></p>
+	<p><input type="submit" value="Enviar"></p>
+	</div>
+	</center>
+</form>
+
+</body>
+
+</html>
